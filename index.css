@@ -1,0 +1,96 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("images/table.png");
+    background-size: cover;
+    /* font-weight: bold;
+    color: white;
+    text-align: center; */
+    position: relative;
+    height: 100vh;
+}
+#container{
+    width: 600px;
+    height: 300px;
+    margin: 8px auto;
+    border: 5px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    
+}
+h1 {
+    text-align: center;
+    color: goldenrod;
+    
+}
+#mainH1{
+    text-align: center;
+    margin-top: 30px;
+}
+#message-el {
+    font-style: italic;
+}
+
+/* 3. Make sure that the two buttons have some space between
+each other when they are rendered out vertically */
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+header{
+    background-color: black;
+    height: 60px;
+    overflow: hidden;
+}
+header ul{
+    list-style: none;
+    
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+header ul li a:hover{
+    color: goldenrod ;
+}
+header ul li{
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 8px;
+    font-size: 19px;
+}
+
+#amt{
+    float: right;
+    margin-right: 80px;
+}
+
+footer{
+    background-color: black;
+    height: 60px;
+    overflow: hidden;
+    color: white;
+    font-weight: bold;
+    position:absolute;
+    bottom:0;
+    width: 100%;
+}
+footer ul{
+    list-style: none;
+    margin-right: 20px;
+}
+footer ul li{
+    float: right;
+    
+}

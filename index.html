@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li> <a href="">Home</a> </li>
+                <li> <a href="">Withdraw</a> </li>
+                <li> <a href="">Account</a> </li>
+                <li id="amt">Amount: <span id="amtSpan"></span>$</li>
+            </ul>
+        </header>
+        <h1 id="mainH1">Welcome to <i> "The Blackjack" </i></h1>
+        <div id="container">
+            <h1>Blackjack</h1>
+            <p id="message-el">Want to play a round?</p>
+            <p id="cards-el">Cards:</p>
+            <p id="sum-el">Sum:</p>
+            <button onclick="startGame()">START GAME</button>
+            <button id="new-btn" onclick="newCard()" disabled>NEW CARD</button>
+            <script src="index.js"></script>
+        </div>
+        <footer>
+            <ul>
+                <li>sachin@copyright 2022</li>
+            </ul>
+        </footer>
+    </body>
+</html>
